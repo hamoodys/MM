@@ -1,0 +1,2 @@
+/* main JavaScript file */
+
