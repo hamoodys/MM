@@ -10,7 +10,7 @@
   <header class="">
     <nav>
       <ul id="nav-top">
-        <li></li>
+        <li><a href="">Muhammad Ali's Life</a></li>
       </ul>
     </nav>
   </header>
@@ -19,8 +19,73 @@
     <h2>Basic Facts</h2>
     <p>Read more about Muhammad Ali on <a href="https://en.wikipedia.org/wiki/Muhammad_Ali">his Wikipedia bio</a>.
     </p>
-    <h2>Rare tid-bits</h2>
-    <p>...</p>
+    <h2>Hints into Muhammad Ali's personality and life-long situation.</h2>
+    <p>Muhammad Ali was born ...</p>
+    <h2>Control Muhammad Ali's individual fight scores to affect his full fight record.</h2>
+    <section>
+      <ul>
+          <div class="slidecontainer successColor">
+              <input type="range" min="1" max="100" value="50" class="slider" id="funRange">
+              <meter id="Fun" class="justifiedRight" value="0.8"></meter>
+          </div>
+          <div class="slidecontainer warningColor">
+              <input type="range" min="1" max="100" value="50" class="slider" id="exerciseRange">
+              <meter id="Exercise" class="justifiedRight" value="0.4"></meter>
+          </div>
+          <div class="slidecontainer dangerColor">
+              <input type="range" min="1" max="100" value="50" class="slider" id="foodRange">
+              <meter id="Food" class="justifiedRight" value="0.2"></meter>
+          </div>
+          <div class="slidecontainer warninColor">
+              <input type="range" min="1" max="100" value="50" class="slider" id="sleepRange1">
+              <meter id="Sleep" class="justifiedRight" value="0.6"></meter>
+          </div>
+          <div class="slidecontainer mainColor">
+              <input type="range" min="1" max="100" value="50" class="slider" id="restRange1">
+              <meter id="Rest" class="justifiedRight" value="0.6"></meter>
+          </div>
+          <div class="slidecontainer mainColor">
+              <input type="range" min="1" max="100" value="50" class="slider" id="workRange1">
+              <meter id="Work" class="justifiedRight" value="0.6"></meter>
+          </div>
+          <div class="slidecontainer mainColor">
+              <input type="range" min="1" max="100" value="50" class="slider" id="socializeRange1">
+              <meter id="Social" class="justifiedRight" value="0.6"></meter>
+          </div>
+          <div class="slidecontainer mainColor">
+              <input type="range" min="1" max="100" value="50" class="slider" id="studyRange1">
+              <meter id="Study" class="justifiedRight" value="0.6"></meter>
+          </div>
+          <div class="slidecontainer mainColor">
+              <input type="range" min="1" max="100" value="50" class="slider" id="cleanRange1">
+              <meter id="Clean" class="justifiedRight" value="0.6"></meter>
+          </div>
+          <div class="slidecontainer mainColor">
+              <input type="range" min="1" max="100" value="50" class="slider" id="organizeRange1">
+              <meter id="Organize" class="justifiedRight" value="0.6"></meter>
+          </div>
+      </ul>
+    </section>
+    <section>
+      <h2>Predictive Scenarios that could happen when variables above changed.</h2>
+      <div id="cards">
+          <div id="cards-row1" class="displayAsRows">
+              <div id="card-past">Past</div>
+              <div id="card-present">Present</div>
+              <div id="card-future">Future</div>
+          </div>
+          <div id="cards-row2" class="displayAsRows">
+              <div id="card-worstCase">Worse Case Scenario</div>
+              <div id="card-bestOption">Best Choice Option</div>
+              <div id="card-LOGO"></div>
+          </div>
+          <div id="cards-row3" class="displayAsRows">
+              <div id="card-outcome">Outcome</div>
+              <div id="card-hopeFear">Hope-Fear</div>
+              <div id="card-influence">Influence</div>
+          </div>
+      </div>
+    </section>
   </main>
   <footer class="">
   </footer>
